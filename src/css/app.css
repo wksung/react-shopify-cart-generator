@@ -1,0 +1,11 @@
+.product-container{
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media(min-width:991px){
+    .product-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
